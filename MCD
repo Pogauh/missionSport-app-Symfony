@@ -1,0 +1,23 @@
+Seance: durée, commentaire
+Est constitué, 1N Seance , 11 DetailSeance
+DetailSeance: id, commentaire , durée, sets, repetition
+Pratique, 1N Exercice , 11 DetailSeance
+Exercice: id, nom, description
+Travail, 1N Muscle, 11 Exercice
+Muscle: id, nom
+
+
+------------------------------------------ 21/02/2024 a 15h36 
+
+User: id, email, role, password
+Effectue, 11 Seance, 0N User
+Seance: durée, commentaire
+Est constitué, 1N Seance , 11 DetailSeance
+DetailSeance: id, commentaire , durée, sets, repetition
+Pratique, 1N Exercice , 11 DetailSeance
+Exercice: id, nom, description
+Travail, 1N Muscle, 11 Exercice
+Muscle: id, nom
+
+
+
